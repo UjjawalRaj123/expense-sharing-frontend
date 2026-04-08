@@ -1,0 +1,39 @@
+# .gitignore for Expense Sharing App
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.example
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build files
+build/
+dist/
+.next/
+out/
+
+# React
+/frontend/build
+/frontend/.cache
+/frontend/.parcel-cache
+
+# Misc
+*.log
+.cache
+coverage/
